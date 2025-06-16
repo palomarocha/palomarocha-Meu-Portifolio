@@ -1,6 +1,6 @@
 const button = document.getElementById('button-language');
 const cvButton = document.getElementById('cv');
-let currentLang = 'en';
+let currentLang = 'pt';
 
 button.addEventListener('click', () => {
     currentLang = currentLang === 'en' ? 'pt' : 'en';
