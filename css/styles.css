@@ -49,7 +49,6 @@
  nav {
      display: flex;
      justify-content: center;
-
      gap: 20px;
  }
 
@@ -382,7 +381,7 @@
 
     nav ul {
         gap: 12px;
-        margin-top: 5px;
+        margin-top: 8px;
     }
 
     nav a {
@@ -506,7 +505,7 @@
 
     nav ul {
         gap: 15px;
-        margin-top: 6px;
+        margin-top: 8px;
     }
 
     nav a {
