@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifólio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/flor.png">
+        <nav>
+            <ul>
+                <li><a href="#home">Página inicial</a></li>
+                <li><a href="#project">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button id="button-language">
+                <svg class="icon-globe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path
+                        d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10c5.514 0 10-4.486 10-10S17.514 2 12 2zm6.93 6h-2.816a12.812 12.812 0 00-1.307-3.354A8.024 8.024 0 0118.93 8zM12 4c.978 1.169 1.801 2.716 2.33 4H9.67C10.199 6.716 11.022 5.169 12 4zM4.07 8a8.024 8.024 0 013.123-3.354A12.812 12.812 0 005.886 8H4.07zM4 12c0-.688.07-1.36.202-2h3.24a17.343 17.343 0 000 4H4.202A7.978 7.978 0 014 12zm.07 4h1.816a12.812 12.812 0 001.307 3.354A8.024 8.024 0 014.07 16zM12 20c-.978-1.169-1.801-2.716-2.33-4h4.66C13.801 17.284 12.978 18.831 12 20zm-2.796-6a15.374 15.374 0 010-4h5.592a15.374 15.374 0 010 4H9.204zM16.807 19.354A12.812 12.812 0 0018.114 16h1.816a8.024 8.024 0 01-3.123 3.354zM19.798 14h-3.24a17.343 17.343 0 000-4h3.24c.132.64.202 1.312.202 2s-.07 1.36-.202 2z">
+                    </path>
+                </svg>
+                English
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <img src="./images/photo-paloma.png">
+            <div class="container">
+                <div class="decor-stars">
+                    <img src="./images/estrela.png" class="star star1">
+                    <img src="./images/estrela.png" class="star star2">
+                </div>
+
+                <h1>Paloma Rocha</h1>
+                <p>Tenho 20 anos, curso o 6º período de Engenharia de Software e sou programadora front-end
+                    apaixonada por programação e design. Gosto de criar interfaces bonitas, funcionais e intuitivas,
+                    unindo criatividade com lógica. Ainda estou em busca da minha primeira oportunidade na área, mas
+                    sigo me dedicando a projetos, estudos e aprendizados constantes para evoluir como desenvolvedora.
+                </p>
+                <button id="cv" class="btn-cv" onclick="baixarCV()">
+                    Baixar CV
+                </button>
+
+            </div>
+        </section>
+        <section id="project">
+            <h2>Confira alguns dos meus projetos:</h2>
+            <div class="proj-container">
+                <div class="itens">
+                    <h3>Projeto Vantaro</h3>
+                    <p>Vantaro é um site fictício de uma empresa de carros, desenvolvido com HTML, CSS e JavaScript.
+                        Possui login, cadastro de veículos e listagem de modelos. Os dados são salvos no localStorage e
+                        carregados via JSON.</p>
+                    <div class="ling-item">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="btn">
+                        <a href="https://github.com/palomarocha/Vantaro"> Confira</a>
+                    </div>
+                </div>
+                <div class="itens">
+                    <h3>Projeto TechPoint</h3>
+
+                    <p>TechPoint é um site fictício de tecnologia desenvolvido com HTML, CSS e JavaScript. O projeto
+                        apresenta planos, serviços e informações de contato, com um layout moderno e responsivo, focando
+                        na experiência do usuário.</p>
+                    <div class="ling-item">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="btn">
+                        <a href="https://github.com/palomarocha/TechPoint">Confira</a>
+                    </div>
+                </div>
+                <div class="itens">
+                    <h3>Projeto Glimmer</h3>
+
+                    <p>Glimmer é uma loja de maquiagem desenvolvida com HTML, CSS e JavaScript. O
+                        site apresenta os produtos de forma visualmente atrativa, com foco em layout organizado para
+                        destacar os itens da loja de forma clara e envolvente.</p>
+                    <div class="ling-item">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="btn">
+                        <a href="https://github.com/palomarocha/landing-page-makeup">Confira</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="contact">
+            <h3>conecte-se comigo:</h3>
+            <div class="btn-wrapper">
+                <img src="./images/gatinho.png" alt="Gatinho rosa" class="cat-icon">
+                <a href="https://github.com/palomarocha" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+
+            <div class="btn-wrapper">
+                <img src="./images/gatinho.png" alt="Gatinho rosa" class="cat-icon">
+                <a href="https://linkedin.com/in/paloma-rocha-amaral-02239031a/" target="_blank"
+                    rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </section>
+    </footer>
+    <script src="./Js/script.js"></script>
+
+</body>
+
+</html>

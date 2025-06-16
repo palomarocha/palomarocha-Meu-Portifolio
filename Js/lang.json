@@ -1,0 +1,30 @@
+{
+    "pt": {
+        "homeTitle": "Paloma Rocha",
+        "homeDescription": "Tenho 20 anos, curso o 6º período de Engenharia de Software e sou programadora front-end apaixonada por programação e design. Gosto de criar interfaces bonitas, funcionais e intuitivas, unindo criatividade com lógica. Ainda estou em busca da minha primeira oportunidade na área, mas sigo me dedicando a projetos, estudos e aprendizados constantes para evoluir como desenvolvedora.",
+        "downloadCV": "Baixar CV",
+        "projectsTitle": "Confira alguns dos meus projetos:",
+        "project1Title": "Projeto Vantaro",
+        "project1Description": "Vantaro é um site fictício de uma empresa de carros, desenvolvido com HTML, CSS e JavaScript. Possui login, cadastro de veículos e listagem de modelos. Os dados são salvos no localStorage e carregados via JSON.",
+        "project2Title": "Projeto TechPoint",
+        "project2Description": "TechPoint é um site fictício de tecnologia desenvolvido com HTML, CSS e JavaScript. O projeto apresenta planos, serviços e informações de contato, com um layout moderno e responsivo, focando na experiência do usuário.",
+        "project3Title": "Projeto Glimmer",
+        "project3Description": "Glimmer é uma loja de maquiagem desenvolvida com HTML, CSS e JavaScript. O site apresenta os produtos de forma visualmente atrativa, com foco em layout organizado para destacar os itens da loja de forma clara e envolvente.",
+        "contactTitle": "Conecte-se comigo:",
+        "englishBtn": "English"
+    },
+    "en": {
+        "homeTitle": "Paloma Rocha",
+        "homeDescription": "I'm 20 years old, currently in the 6th semester of Software Engineering, and I'm a passionate front-end developer who loves programming and design. I enjoy creating beautiful, functional, and intuitive interfaces that combine creativity with logic. Although I'm still searching for my first professional opportunity in the field, I dedicate myself to projects, continuous study, and constant learning to grow and improve as a developer.",
+        "downloadCV": "View CV",
+        "projectsTitle": "Check out some of my projects:",
+        "project1Title": "Vantaro Project",
+        "project1Description": "Vantaro is a fictional website for a car company, developed with HTML, CSS, and JavaScript. It features login, vehicle registration, and model listing. Data is saved in localStorage and loaded via JSON.",
+        "project2Title": "TechPoint Project",
+        "project2Description": "TechPoint is a fictional technology website developed with HTML, CSS, and JavaScript. The project presents plans, services, and contact information, with a modern and responsive layout focused on user experience.",
+        "project3Title": "Glimmer Project",
+        "project3Description": "Glimmer is a makeup store website developed with HTML, CSS, and JavaScript. The site showcases products in a visually appealing way, with an organized layout to clearly and engagingly highlight the items.",
+        "contactTitle": "Connect with me:",
+        "englishBtn": "Português"
+    }
+}
