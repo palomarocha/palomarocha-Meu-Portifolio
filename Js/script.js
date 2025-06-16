@@ -1,5 +1,6 @@
 const button = document.getElementById('button-language');
-let currentLang = 'en';
+const cvButton = document.getElementById('cv');
+let currentLang = 'pt';
 
 button.addEventListener('click', () => {
     currentLang = currentLang === 'en' ? 'pt' : 'en';
@@ -11,7 +12,7 @@ button.addEventListener('click', () => {
 
             document.querySelector('.container h1').textContent = data[lang].homeTitle;
             document.querySelector('.container p').textContent = data[lang].homeDescription;
-            document.getElementById('cv').textContent = data[lang].downloadCV;
+            cvButton.textContent = data[lang].downloadCV;
             document.querySelector('#project h2').textContent = data[lang].projectsTitle;
             document.querySelectorAll('.itens')[0].querySelector('h3').textContent = data[lang].project1Title;
             document.querySelectorAll('.itens')[0].querySelector('p').textContent = data[lang].project1Description;
@@ -20,8 +21,6 @@ button.addEventListener('click', () => {
             document.querySelectorAll('.itens')[2].querySelector('h3').textContent = data[lang].project3Title;
             document.querySelectorAll('.itens')[2].querySelector('p').textContent = data[lang].project3Description;
             document.querySelector('#contact h3').textContent = data[lang].contactTitle;
-
-            document.getElementById('cv').setAttribute('onclick', `baixarCV('${lang}')`);
 
             button.innerHTML = `
                 <svg class="icon-globe" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
@@ -32,11 +31,15 @@ button.addEventListener('click', () => {
         });
 });
 
+cvButton.addEventListener('click', () => baixarCV(currentLang));
+
 function baixarCV(lang) {
     const arquivos = {
         pt: './docs/CV-Paloma-Rocha-PT.pdf',
         en: './docs/CV-Paloma-Rocha-EN.pdf'
     };
+
+    if (!arquivos[lang]) return;
 
     const link = document.createElement('a');
     link.href = arquivos[lang];
@@ -52,7 +55,7 @@ function mostrarSection() {
     const triggerBottom = window.innerHeight * 0.85;
     sections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top;
-        if(sectionTop < triggerBottom) {
+        if (sectionTop < triggerBottom) {
             section.classList.add('show');
         } else {
             section.classList.remove('show');
