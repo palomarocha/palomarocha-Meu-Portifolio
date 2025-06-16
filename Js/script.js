@@ -4,7 +4,7 @@ let currentLang = 'en';
 button.addEventListener('click', () => {
     currentLang = currentLang === 'en' ? 'pt' : 'en';
 
-    fetch('./lang.json')
+    fetch('js/lang.json')
         .then(response => response.json())
         .then(data => {
             const lang = currentLang;
