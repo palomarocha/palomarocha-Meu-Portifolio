@@ -1,11 +1,11 @@
  @font-face {
      font-family: poppins;
-     src: url(./fonts/Poppins.ttf);
+     src: url(../fonts/Poppins.ttf);
  }
 
  @font-face {
      font-family: how;
-     src: url(./fonts/Howdybun.ttf);
+     src: url(../fonts/Howdybun.ttf);
  }
 
 
