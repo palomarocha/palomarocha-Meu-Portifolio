@@ -195,7 +195,7 @@
      width: 20px;
      height: 18px;
      top: -130px;
-     left: -105px;
+     left: -98px;
      transform: rotate(-25deg);
  }
 
@@ -632,14 +632,40 @@
     }
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1440px) {
+
     .container {
         margin-top: 250px;
-        margin-left: 350px;
+  
+    }
+
+    #home img {
+        margin-left: 300px;
+        margin-top: 150px;
+        height: 22vw;
     }
 
     .container h1 {
-        font-size: 30px;
-        margin-left: 0px;
+        margin-left: 300px;
     }
+
+    .container p {
+        margin-right: 150px;
+    }
+
+    .btn-cv {
+        margin-left: 22vw;
+    }
+     #home .decor-stars .star1 {
+    
+     top: -150px;
+     left: -30px;
+    
+ }
+
+ #home .decor-stars .star2 {
+     top: -150px;
+     left: 307px;
+ 
+ }
 }
