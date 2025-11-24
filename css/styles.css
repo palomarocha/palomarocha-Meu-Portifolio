@@ -659,7 +659,7 @@
     }
      @media screen (min-width: 1024px) {
           .container h1{
-               margin-left: 500px;
+               margin-right: 500px;
           }
      }
 }
