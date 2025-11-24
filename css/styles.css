@@ -657,4 +657,9 @@
         font-size: 14px;
         padding: 20px 25px;
     }
+     @media screen (min-width: 1024px) {
+          .container h1{
+               margin-left: 200px;
+          }
+     }
 }
