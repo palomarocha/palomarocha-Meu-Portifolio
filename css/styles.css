@@ -660,32 +660,28 @@
 }
    @media screen and (min-width: 1281px) {
     #home img {
-        height: 30vw;
-        margin-left: 120px;
-        padding-top: 20px;
+        height: 20vw;
+        margin-left: 420px;
+ 
     }
-
+       .container{
+           margin-top: 250px;
+       }
     .container h1 {
         font-size: 30px;
-        margin-left: 90px;
-        margin-top: 20px;
+        margin-left: 350px;
+       
     }
-
-    .container p {
-        font-size: 12px;
-        margin-right: 80px;
-        margin-top: 10px;
+       #home .decor-stars .star2 {
+ 
+     left: 145px;
     }
-
-    .btn-cv {
-        margin-left: 15vw;
-        width: 95px;
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
+       .btn-cv{
+           margin-left: 410px;
+       }
 
     .itens {
-        width: 50%;
+        width: 40%;
     }
 
     .itens h3 {
@@ -693,11 +689,12 @@
     }
 
     .ling-item span {
-        width: 70px;
+        width: 80px;
     }
 
     .btn-wrapper a {
         font-size: 14px;
-        padding: 20px 25px;
+        padding: 10px 25px;
          }
      }
+
