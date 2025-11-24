@@ -657,9 +657,38 @@
         font-size: 14px;
         padding: 20px 25px;
     }
-     @media screen (min-width: 1024px) {
-          .container h1{
-               margin-right: 500px;
-          }
+    @media screen and (min-width: 1281px) and (max-width: 1920px) {
+
+   #home {
+       justify-content: center;
+       align-items: center;
+   }
+
+   #home img {
+       height: 28vw;
+       margin: 150px auto 0 auto;
+   }
+
+   .container {
+       align-items: center;
+       text-align: center;
+       margin-left: 0;
+   }
+
+   .container h1 {
+       margin-left: 0;
+       font-size: 55px;
+   }
+
+   .container p {
+       margin-right: 0;
+       font-size: 18px;
+       max-width: 600px;
+   }
+
+   .btn-cv {
+       margin-left: 0;
+       margin-top: 25px;
+        }
      }
 }
